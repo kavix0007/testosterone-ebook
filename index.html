@@ -1,448 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boost Testosterone Naturally — For Teenagers & Young Men</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boost Testosterone Naturally — For Teenagers &amp; Young Men</title>
+<meta name="description" content="A 12-chapter beginner guide to the sleep, food, training and stress habits that support healthy testosterone. 30-day plan included. Instant PDF.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#111111; --hero:#080808; --card:#1a1a1a; --line:#2a2a2a; --text:#e8e8e8; --muted:#9a9a9a;
+  --accent:#e67e22; --accent-t:#f0963f; --on-accent:#0d0d0d;
+  --badbg:#160b0b; --badline:#5a2323; --badt:#e9aaaa; --badl:#ee6a5b;
+  --goodbg:#0a1710; --goodline:#1c5a34; --goodt:#a8e3bf; --goodl:#4cd085;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f4f4f2; --hero:#14110d; --card:#ffffff; --line:#dedbd5; --text:#1b1915; --muted:#5f5a51;
+    --accent:#d9690f; --accent-t:#a84e05; --on-accent:#ffffff;
+    --badbg:#fdf0ee; --badline:#efc3bd; --badt:#7a2a22; --badl:#b3382c;
+    --goodbg:#eef8f1; --goodline:#b7e0c4; --goodt:#1f5a36; --goodl:#1d7a43;
+  }
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.65 'Inter',system-ui,sans-serif}
+.page{max-width:820px;margin:0 auto;padding:24px 18px 56px}
+h1,h2,h3{font-family:'Bebas Neue',Impact,sans-serif;font-weight:400;letter-spacing:.02em;line-height:1.02;margin:0}
+h2{font-size:clamp(1.8rem,5vw,2.5rem);margin-bottom:10px}
+p{margin:0 0 1em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+section{margin-top:56px}
+.lead{color:var(--muted);max-width:60ch}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);font:600 15px 'Inter',sans-serif;padding:15px 34px;border-radius:6px;border:0;cursor:pointer;text-decoration:none;letter-spacing:.04em;text-transform:uppercase;transition:transform .12s}
+.btn:hover{transform:translateY(-2px)}
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #111;
-      color: #e0e0e0;
-      min-height: 100vh;
-    }
+/* hero */
+.hero{background:var(--hero);border-radius:18px;padding:44px 32px 30px;position:relative;overflow:hidden;color:#f1f1f1}
+.hero::after{content:"";position:absolute;right:-90px;bottom:-90px;width:280px;height:280px;border-radius:50%;background:#e67e22;opacity:.14;pointer-events:none}
+.hero .tag{font-size:13px;color:var(--accent-t);margin-bottom:14px;font-weight:500}
+.hero h1{font-size:clamp(2.8rem,9vw,5rem);margin-bottom:18px;color:#fff;max-width:13ch}
+.hero p.sub{color:#b3b3b3;font-size:17px;max-width:52ch;margin-bottom:26px}
+.hero .row{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:1}
+.hero .ghost{background:transparent;color:#fff;border:1.5px solid #444}
+.stats{display:flex;gap:34px;flex-wrap:wrap;margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);position:relative;z-index:1}
+.stat b{display:block;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:2.3rem;line-height:1;color:#f0963f}
+.stat span{font-size:12px;color:#8d8d8d;display:block;margin-top:3px;max-width:18ch}
 
-    .page {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 2rem 1.25rem 4rem;
-    }
+/* alert */
+.alert{margin-top:22px;border:1px solid #7a3a00;background:rgba(230,126,34,.08);border-radius:12px;padding:16px 20px;display:flex;gap:12px}
+.alert .i{color:var(--accent-t);font-size:1.3rem;line-height:1.4}
+.alert p{margin:0;font-size:15px}
 
-    /* ── HERO ── */
-    .hero {
-      background: #080808;
-      border-radius: 16px;
-      padding: 2.5rem 2rem 2rem;
-      margin-bottom: 1.5rem;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::after {
-      content: '';
-      position: absolute;
-      bottom: -80px; right: -80px;
-      width: 260px; height: 260px;
-      background: #e67e22;
-      border-radius: 50%;
-      opacity: 0.13;
-      pointer-events: none;
-    }
-    .eyebrow {
-      font-size: 11px; font-weight: 600;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: #e67e22; margin-bottom: 0.9rem;
-    }
-    h1 {
-      font-family: 'Bebas Neue', serif;
-      font-size: clamp(2.4rem, 7vw, 4rem);
-      color: #fff; line-height: 1.0;
-      letter-spacing: 0.02em; margin-bottom: 1rem;
-    }
-    h1 span { color: #e67e22; }
-    .hero-sub {
-      font-size: 15px; color: #999;
-      line-height: 1.65; margin-bottom: 1.5rem; max-width: 540px;
-    }
-    .stats {
-      display: flex; gap: 2rem; flex-wrap: wrap;
-      padding-top: 1.25rem;
-      border-top: 0.5px solid rgba(255,255,255,0.08);
-    }
-    .stat .n {
-      font-family: 'Bebas Neue', serif;
-      font-size: 2rem; color: #e67e22; line-height: 1;
-    }
-    .stat .l {
-      font-size: 11px; color: #777;
-      letter-spacing: 0.05em; text-transform: uppercase; margin-top: 2px;
-    }
+/* pills */
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pill{border:1px solid rgba(230,126,34,.45);color:var(--accent-t);background:rgba(230,126,34,.1);padding:6px 15px;border-radius:99px;font-size:13px;font-weight:500}
 
-    /* ── ALERT ── */
-    .alert {
-      background: #110800; border: 1px solid #7a3a00;
-      border-radius: 10px; padding: 1rem 1.25rem;
-      display: flex; gap: 10px; align-items: flex-start;
-      margin-bottom: 1.75rem;
-    }
-    .alert i { color: #e67e22; font-size: 20px; flex-shrink: 0; margin-top: 2px; }
-    .alert p { font-size: 14px; line-height: 1.6; color: #f0c9a0; }
-    .alert strong { color: #ffaa55; font-weight: 500; }
+/* signs */
+.checks{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px 24px}
+.checks div{display:flex;gap:10px;font-size:14.5px;line-height:1.45}
+.checks div::before{content:"✓";color:var(--accent-t);font-weight:700}
+.note{margin-top:16px;background:var(--card);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;padding:14px 18px;color:var(--muted);font-size:14.5px}
+.note b{color:var(--text);font-weight:600}
 
-    /* ── SECTION LABELS ── */
-    .sl {
-      font-size: 11px; font-weight: 600;
-      letter-spacing: 0.14em; text-transform: uppercase;
-      color: #e67e22; margin-bottom: 0.4rem;
-    }
-    h2 {
-      font-family: 'Bebas Neue', serif;
-      font-size: clamp(1.5rem, 4vw, 2rem);
-      color: #f0f0f0; line-height: 1.1;
-      letter-spacing: 0.02em; margin-bottom: 0.6rem;
-    }
-    .body {
-      font-size: 15px; line-height: 1.7;
-      color: #aaa; margin-bottom: 1.5rem;
-    }
+/* habits */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:20px}
+.hc{border-radius:14px;padding:18px 18px 16px;background:var(--badbg);border:1px solid var(--badline)}
+.hc h3{font-size:1.35rem;color:var(--badl);margin-bottom:4px}
+.hc p{margin:0 0 12px;color:var(--badt);font-size:14px}
+.hc .fix{border-top:1px solid var(--goodline);padding-top:10px;color:var(--goodt);font-size:14px}
+.hc .fix b{color:var(--goodl);font-weight:600}
 
-    /* ── AUDIENCE TAGS ── */
-    .audience-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.75rem; }
-    .aud {
-      background: rgba(230,126,34,0.12); color: #e67e22;
-      border: 0.5px solid rgba(230,126,34,0.3);
-      font-size: 12px; font-weight: 500;
-      padding: 6px 14px; border-radius: 20px;
-    }
+/* inside */
+.what{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:20px}
+.wc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.wc .e{font-size:1.5rem;margin-bottom:8px}
+.wc h3{font-size:1.35rem;margin-bottom:4px}
+.wc p{margin:0;color:var(--muted);font-size:14px}
+.chap{margin-top:16px;color:var(--muted);font-size:14px}
 
-    /* ── CHECKLIST ── */
-    .checks {
-      background: #1a1a1a; border-radius: 14px;
-      padding: 1.25rem 1.5rem; margin-bottom: 1.75rem;
-    }
-    .check-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 8px; margin-top: 0.75rem;
-    }
-    .check-item {
-      display: flex; align-items: flex-start;
-      gap: 8px; font-size: 13px; color: #e0e0e0; line-height: 1.45;
-    }
-    .check-item i { color: #e67e22; font-size: 15px; flex-shrink: 0; margin-top: 1px; }
+/* tracker */
+.tracker{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-top:20px}
+.week{display:grid;grid-template-columns:170px 1fr;gap:10px 18px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
+.week:first-child{border-top:0;padding-top:0}
+.week b{display:block;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1.3rem;letter-spacing:.03em}
+.week .f{font-size:13px;color:var(--muted);line-height:1.35}
+.days{display:flex;flex-wrap:wrap;gap:7px}
+.day{width:40px;height:40px;border-radius:8px;border:1.5px solid var(--line);background:transparent;color:var(--muted);font:600 14px 'Inter',sans-serif;cursor:pointer;transition:background .15s,color .15s}
+.day[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.tbar{display:flex;justify-content:space-between;align-items:center;margin-top:8px;padding-top:14px;border-top:1px solid var(--line)}
+.count{font-family:'Bebas Neue',sans-serif;font-size:1.7rem}
+.reset{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:13px}
 
-    /* ── NOTE BAR ── */
-    .note-bar {
-      background: #1a1a1a;
-      border-left: 3px solid #e67e22;
-      border-radius: 0 10px 10px 0;
-      padding: 0.85rem 1rem; margin-bottom: 1.75rem;
-      font-size: 13px; color: #aaa; line-height: 1.6;
-    }
-    .note-bar strong { color: #e0e0e0; font-weight: 500; }
+/* faq */
+details{border-top:1px solid var(--line);padding:15px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--accent-t);font-size:1.3rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin:10px 0 0;color:var(--muted);font-size:15px}
 
-    hr.div { border: none; border-top: 0.5px solid #2a2a2a; margin: 1.75rem 0; }
+/* price */
+.price{background:var(--hero);color:#f1f1f1;border-radius:18px;padding:40px 24px;text-align:center}
+.price .e{font-size:12px;color:#888;margin-bottom:10px}
+.price h2{color:#fff;font-size:clamp(2rem,6vw,3rem);margin:0 auto 10px;max-width:16ch}
+.price .s{color:#9a9a9a;max-width:46ch;margin:0 auto 18px;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:18px}
+.chip{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:#bbb;font-size:12px;padding:4px 12px;border-radius:99px}
+.amt{font-family:'Bebas Neue',sans-serif;font-size:clamp(3rem,10vw,4.4rem);line-height:1;color:#fff;margin:6px 0 4px}
+.amt i{font-style:normal;color:#666;font-size:.5em;padding:0 .3em}
+.once{font-size:13px;color:#f0963f;margin-bottom:22px}
 
-    /* ── MYTH GRID ── */
-    .myth-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 10px; margin-bottom: 1.75rem;
-    }
-    .myth-card { border-radius: 14px; padding: 1rem; }
-    .myth-card.bad { background: #130000; border: 0.5px solid #5a1a1a; }
-    .myth-card.good { background: #001308; border: 0.5px solid #0d4a1f; }
-    .myth-label {
-      font-size: 10px; font-weight: 600;
-      letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 6px;
-    }
-    .myth-card.bad .myth-label { color: #e74c3c; }
-    .myth-card.good .myth-label { color: #2ecc71; }
-    .myth-text { font-size: 13px; line-height: 1.5; }
-    .myth-card.bad .myth-text { color: #e0aaaa; }
-    .myth-card.good .myth-text { color: #a0e0b8; }
+dialog{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:16px;padding:28px 24px;width:min(440px,92vw);text-align:center}
+dialog::backdrop{background:rgba(0,0,0,.78)}
+dialog h3{font-size:1.8rem;margin-bottom:6px}
+dialog p{color:var(--muted);font-size:14px}
+.pay{display:block;text-decoration:none;border-radius:10px;padding:15px;margin-top:12px;font-weight:600;font-size:17px}
+.pay.upi{background:var(--accent);color:var(--on-accent)}
+.pay.pp{background:#0070ba;color:#fff}
+.close{margin-top:16px;background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:13px}
 
-    /* ── WHAT'S INSIDE ── */
-    .what-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
-      gap: 10px; margin-bottom: 1.75rem;
-    }
-    .what-card {
-      background: #181818;
-      border: 0.5px solid #2a2a2a;
-      border-radius: 14px; padding: 1rem;
-    }
-    .what-icon { font-size: 22px; color: #e67e22; margin-bottom: 8px; }
-    .what-title { font-size: 13px; font-weight: 500; color: #e0e0e0; margin-bottom: 3px; }
-    .what-desc { font-size: 12px; color: #888; line-height: 1.45; }
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+footer p{max-width:70ch;margin-bottom:.7em}
 
-    /* ── PRICE / CTA ── */
-    .price-block {
-      background: #080808; border-radius: 16px;
-      padding: 2rem; text-align: center; margin-top: 1.75rem;
-    }
-    .price-eyebrow {
-      font-size: 11px; letter-spacing: 0.14em;
-      text-transform: uppercase; color: #666; margin-bottom: 0.75rem;
-    }
-    .price-h {
-      font-family: 'Bebas Neue', serif;
-      font-size: clamp(1.8rem, 5vw, 2.6rem);
-      color: #fff; margin-bottom: 0.25rem; letter-spacing: 0.02em;
-    }
-    .price-h span { color: #e67e22; }
-    .price-sub { font-size: 14px; color: #888; margin-bottom: 1.25rem; line-height: 1.55; }
-    .price-tag {
-      display: inline-block;
-      background: rgba(230,126,34,0.15); color: #ffaa55;
-      font-size: 11px; font-weight: 600;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      padding: 4px 12px; border-radius: 20px; margin-bottom: 1rem;
-      border: 0.5px solid rgba(230,126,34,0.3);
-    }
-    .price-amount {
-      font-family: 'Bebas Neue', serif;
-      font-size: 3.5rem; color: #fff; line-height: 1; margin-bottom: 1.5rem;
-    }
-    .price-amount small { font-size: 1.2rem; vertical-align: super; color: #e67e22; }
-    .chips { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 1.25rem; }
-    .chip {
-      background: rgba(255,255,255,0.06); color: #bbb;
-      font-size: 11px; padding: 4px 10px; border-radius: 20px;
-      border: 0.5px solid rgba(255,255,255,0.1);
-    }
-    .btn {
-      display: inline-block;
-      background: #e67e22; color: #fff;
-      font-family: 'Inter', sans-serif;
-      font-size: 15px; font-weight: 600;
-      padding: 15px 36px; border-radius: 4px;
-      border: none; cursor: pointer;
-      letter-spacing: 0.05em; text-transform: uppercase;
-      text-decoration: none; transition: background 0.15s;
-    }
-    .btn:hover { background: #ca6f1e; }
-    .guarantee {
-      font-size: 12px; color: #555; margin-top: 0.75rem;
-      display: flex; align-items: center; justify-content: center; gap: 6px;
-    }
-    .guarantee i { font-size: 14px; }
-
-    @media (max-width: 500px) {
-      .page { padding: 1rem 0.85rem 3rem; }
-      .hero { padding: 2rem 1.25rem 1.5rem; }
-      .price-block { padding: 1.5rem 1rem; }
-    }
-  </style>
+@media(max-width:560px){
+  .hero{padding:34px 20px 24px}
+  .week{grid-template-columns:1fr}
+  .day{width:37px;height:37px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
 </head>
 <body>
-  <div class="page">
+<div class="page">
 
-    <!-- HERO -->
-    <div class="hero">
-      <p class="eyebrow">For Teenagers &amp; Young Men — Ages 13–30</p>
-      <h1>Why You Feel<br><span>Weak, Tired &amp;</span><br>Unmotivated.</h1>
-      <p class="hero-sub">Your teenage years are supposed to be your most energetic. But bad food, no sleep, screens all day and constant stress are quietly sabotaging your hormones — before your peak years even begin.</p>
-      <div class="stats">
-        <div class="stat"><div class="n">70%</div><div class="l">Of teens are Vitamin D deficient</div></div>
-        <div class="stat"><div class="n">6hrs</div><div class="l">Avg teen sleep — needs 9+</div></div>
-        <div class="stat"><div class="n">3×</div><div class="l">More anxiety in Gen Z vs prior gens</div></div>
-      </div>
-    </div>
-
-    <!-- ALERT -->
-    <div class="alert">
-      <i class="ti ti-alert-triangle"></i>
-      <p><strong>This isn't just a "puberty thing."</strong> The habits you build right now — how you eat, sleep, train, and manage stress — will determine your testosterone levels, energy, and confidence for the next 20 years. You're setting your baseline today.</p>
-    </div>
-
-    <!-- AUDIENCE -->
-    <p class="sl">Who this is for</p>
-    <div class="audience-bar">
-      <span class="aud">Teenage boys (13–17)</span>
-      <span class="aud">Young men (18–30)</span>
-      <span class="aud">Fitness beginners</span>
-      <span class="aud">Students &amp; athletes</span>
-      <span class="aud">Anyone lacking energy or drive</span>
-    </div>
-
-    <!-- SYMPTOMS -->
-    <p class="sl">Sound familiar?</p>
-    <h2>Signs Your Hormones Aren't Working For You</h2>
-    <div class="checks">
-      <div class="check-grid">
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Tired all day even after 8 hours of sleep</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Struggling to build muscle at the gym</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Low confidence and motivation</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Can't focus in school or on tasks</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Mood swings and feeling down</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Skinny fat — soft body, no definition</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Anxious or stressed most of the time</span></div>
-        <div class="check-item"><i class="ti ti-circle-check"></i><span>Not developing as fast as other guys</span></div>
-      </div>
-    </div>
-
-    <div class="note-bar"><strong>Important:</strong> Testosterone isn't just about muscles. It drives your focus, mood, confidence, energy, and how your body develops during these critical years. Letting bad habits suppress it now has long-term consequences most people never talk about.</div>
-
-    <hr class="div" />
-
-    <!-- SCIENCE -->
-    <p class="sl">What's destroying it</p>
-    <h2>The Modern Teen's Hormone Killers</h2>
-    <p class="body">Your generation faces something no previous generation did: junk food engineered to be addictive, screens delaying sleep for hours, stress from social media comparison, and almost zero sunlight. Every single one of these directly attacks your hormonal health.</p>
-
-    <div class="myth-grid">
-      <div class="myth-card bad">
-        <div class="myth-label">Killing your T</div>
-        <div class="myth-text">Ultra-processed food every day. It floods your body with chemicals that disrupt hormones.</div>
-      </div>
-      <div class="myth-card bad">
-        <div class="myth-label">Killing your T</div>
-        <div class="myth-text">Scrolling until 2am. Every hour of lost sleep cuts testosterone output measurably.</div>
-      </div>
-      <div class="myth-card bad">
-        <div class="myth-label">Killing your T</div>
-        <div class="myth-text">Sitting all day, no exercise. Your body stops producing hormones it doesn't need.</div>
-      </div>
-      <div class="myth-card bad">
-        <div class="myth-label">Killing your T</div>
-        <div class="myth-text">Chronic stress from school, social media, and pressure. Cortisol directly blocks testosterone.</div>
-      </div>
-    </div><!-- FIX 1: closed myth-grid div that was missing -->
-
-    <hr class="div" />
-
-    <!-- WHAT'S INSIDE -->
-    <p class="sl">What's inside the guide</p>
-    <h2>Simple. Practical. Built For Your Age.</h2>
-    <p class="body">No complicated supplements. No gym jargon. No expensive programmes. Just clear, science-backed habits any teenager can start today — written in plain language that actually makes sense.</p>
-
-    <div class="what-grid">
-      <div class="what-card">
-        <div class="what-icon"><i class="ti ti-meat"></i></div>
-        <div class="what-title">Teen nutrition</div>
-        <div class="what-desc">Foods that fuel hormones — not just macros and calories.</div>
-      </div>
-      <div class="what-card">
-        <div class="what-icon"><i class="ti ti-barbell"></i></div>
-        <div class="what-title">Beginner training</div>
-        <div class="what-desc">Exercises that trigger hormone response — no gym required.</div>
-      </div>
-      <div class="what-card">
-        <div class="what-icon"><i class="ti ti-moon"></i></div>
-        <div class="what-title">Sleep hacks</div>
-        <div class="what-desc">Fix your sleep and stop destroying your own hormones at night.</div>
-      </div>
-      <div class="what-card">
-        <div class="what-icon"><i class="ti ti-sun"></i></div>
-        <div class="what-title">Vitamin D &amp; sunlight</div>
-        <div class="what-desc">The simplest hormone fix most teenagers have never heard of.</div>
-      </div>
-      <div class="what-card">
-        <div class="what-icon"><i class="ti ti-brain"></i></div>
-        <div class="what-title">Stress &amp; focus</div>
-        <div class="what-desc">Break the cortisol cycle draining your energy and confidence.</div>
-      </div>
-
-       
-
-
-      </div>
-    </div>
-
-    <!-- CTA -->
-    <div class="price-block">
-      <p class="price-eyebrow">Instant access — PDF download</p>
-      <p class="price-h">Start Building Your Best<br><span>Body &amp; Mind Right Now</span></p>
-      <p class="price-sub">12 detailed chapters written for beginners. A complete 30-day action plan.<br>Science-based habits you can start using today — for less than a meal deal.</p>
-      <div class="chips">
-        <span class="chip">12 Chapters</span>
-    
-        <span class="chip">Teen-friendly language</span>
-        <span class="chip">Nutrition Guide</span>
-        <span class="chip">Sleep Strategies</span>
-        <span class="chip">Instant PDF Download</span>
-      </div>
-      <div class="price-tag">One-time payment · No subscription</div>
-      <div class="price-amount">
-  <span style="font-size:2rem;">₹289</span>
-  <span style="color:#777;"> / </span>
-  <span><small>$</small>2.99</span>
+<div class="hero">
+  <p class="tag">For teenagers and young men</p>
+  <h1>Tired, flat and low on drive? Start with the basics.</h1>
+  <p class="sub">Sleep, food, training and stress all shape your hormones. This beginner guide shows you how to fix them, one simple habit at a time.</p>
+  <div class="row">
+    <a class="btn" href="#buy">Get the guide</a>
+    <a class="btn ghost" href="#inside">See what’s inside</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>12</b><span>Beginner-friendly chapters</span></div>
+    <div class="stat"><b>30</b><span>Day challenge to follow</span></div>
+    <div class="stat"><b>8–10</b><span>Hours of sleep teens should aim for</span></div>
+  </div>
 </div>
 
+<div class="alert">
+  <span class="i">⚠</span>
+  <p><b>This isn’t just a “puberty thing.”</b> The habits you build now, in how you sleep, eat, train and handle stress, shape your energy and health for years to come.</p>
+</div>
 
-</button>
+<section>
+  <h2>Who this is for</h2>
+  <div class="pills">
+    <span class="pill">Teenage boys</span><span class="pill">Young men</span><span class="pill">Fitness beginners</span><span class="pill">Students and athletes</span><span class="pill">Anyone low on energy or drive</span>
+  </div>
+</section>
 
-<a href="#paymentModal" class="btn">
-  Buy Now — ₹289 / $2.99
-</a>
+<section>
+  <h2>Signs people often notice</h2>
+  <p class="lead">Chapter 2 covers the common signs linked with low testosterone.</p>
+  <div class="checks">
+    <div>Tired even after enough sleep</div><div>Struggling to build muscle</div>
+    <div>Low motivation and drive</div><div>Trouble concentrating</div>
+    <div>Irritability or low confidence</div><div>Extra fat around the waist</div>
+    <div>Workouts feel harder than usual</div><div>Slow recovery after exercise</div>
+  </div>
+  <div class="note"><b>Important:</b> these signs have many possible causes, and poor sleep and stress are among the most common. A blood test is the only reliable way to check testosterone, so see a doctor if you’re concerned.</div>
+</section>
 
-<div id="paymentModal" style="
-display:none;
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,.85);
-z-index:9999;
-align-items:center;
-justify-content:center;
-">
+<section>
+  <h2>Everyday habits that work against you</h2>
+  <p class="lead">Chapter 9 breaks down the habits that can hold your health and hormones back, and what to do instead.</p>
+  <div class="grid">
+    <div class="hc"><h3>Poor sleep</h3><p>Staying up late, scrolling in bed and sleeping under 7 hours.</p><div class="fix"><b>Instead:</b> a steady schedule and 7–9 hours (8–10 for teens).</div></div>
+    <div class="hc"><h3>No exercise</h3><p>Sitting most of the day with little movement.</p><div class="fix"><b>Instead:</b> strength training, daily walks and staying active.</div></div>
+    <div class="hc"><h3>Junk food</h3><p>Sugary drinks, fast food and processed snacks every day.</p><div class="fix"><b>Instead:</b> protein, fruit, vegetables and healthy fats.</div></div>
+    <div class="hc"><h3>Constant stress</h3><p>Long-term pressure that wrecks sleep, mood and recovery.</p><div class="fix"><b>Instead:</b> breathing exercises, time outdoors and less screen time.</div></div>
+  </div>
+</section>
 
-<div style="
-background:#111;
-padding:30px;
-border-radius:16px;
-max-width:500px;
-width:90%;
-text-align:center;
-border:1px solid #333;
-">
+<section id="inside">
+  <h2>What’s inside the guide</h2>
+  <p class="lead">No complicated jargon and no expensive programmes. Just clear habits written in plain language.</p>
+  <div class="what">
+    <div class="wc"><div class="e">🥚</div><h3>Nutrition</h3><p>Protein, healthy fats, zinc and vitamin D foods, including paneer, dal, ghee, nuts and eggs.</p></div>
+    <div class="wc"><div class="e">🏋️</div><h3>Beginner training</h3><p>A simple weekly plan with squats, push-ups, pull-ups, planks and walking. No gym needed.</p></div>
+    <div class="wc"><div class="e">🌙</div><h3>Sleep and recovery</h3><p>How much you need and how to improve it, from screen habits to a cool, dark room.</p></div>
+    <div class="wc"><div class="e">☀️</div><h3>Vitamin D and sunlight</h3><p>Why sunlight matters and how to get it into your daily routine.</p></div>
+    <div class="wc"><div class="e">🧠</div><h3>Stress and focus</h3><p>A 4-4-6 breathing method and other ways to keep stress under control.</p></div>
+    <div class="wc"><div class="e">✅</div><h3>30-day challenge</h3><p>One focus per week and a daily checklist to turn it all into routine.</p></div>
+  </div>
+  <p class="chap">Also covered: weight loss and hormones, FAQs, and a final action plan built on the 80/20 rule.</p>
+</section>
 
-<h2 style="color:#fff;margin-bottom:10px;">Choose Payment Method</h2>
-<p style="color:#999;margin-bottom:25px;">
-Secure checkout. Select your preferred payment option.
-</p>
+<section>
+  <h2>Try the 30-day challenge</h2>
+  <p class="lead">Tap each day you complete. Your progress stays on this device.</p>
+  <div class="tracker">
+    <div id="weeks"></div>
+    <div class="tbar"><div class="count"><span id="n">0</span> of 30 days</div><button class="reset" id="reset" type="button">Clear all</button></div>
+  </div>
+</section>
 
-<a href="https://payhip.com/b/fh15d" target="_blank" style="
-display:block;
-background:#0070ba;
-color:#fff;
-padding:18px;
-border-radius:12px;
-text-decoration:none;
-font-weight:600;
-margin-bottom:15px;
-font-size:18px;
-">
-🌎 PayPal — $4.99
-</a>
+<section>
+  <h2>Questions</h2>
+  <details><summary>Can teenagers follow this guide?</summary><p>Yes. It focuses on nutrition, sleep, exercise and daily habits. If you’re under 18, check with a parent or doctor before making big changes to training or diet.</p></details>
+  <details><summary>Do I need a gym or supplements?</summary><p>No. The beginner plan works at home, and the guide is built on food, sleep, training and stress. It advises taking testosterone supplements only under a healthcare professional’s guidance.</p></details>
+  <details><summary>How long until I see results?</summary><p>Healthy habits usually need several weeks of consistency, which is why the plan runs for 30 days.</p></details>
+  <details><summary>How do I get the book?</summary><p>You get the PDF right after checkout. Pay by UPI if you’re in India, or PayPal from anywhere else.</p></details>
+</section>
 
-<a href="https://payhip.com/b/jk0tr" target="_blank" style="
-display:block;
-background:#e67e22;
-color:#fff;
-padding:18px;
-border-radius:12px;
-text-decoration:none;
-font-weight:600;
-font-size:18px;
-">
-🇮🇳 UPI — ₹459
-</a>
+<section id="buy">
+  <div class="price">
+    <p class="e">Instant access · PDF download</p>
+    <h2>Start building better habits today</h2>
+    <p class="s">12 chapters for beginners and a complete 30-day plan, for less than a meal deal.</p>
+    <div class="chips"><span class="chip">12 chapters</span><span class="chip">Beginner-friendly</span><span class="chip">Nutrition guide</span><span class="chip">Sleep strategies</span><span class="chip">30-day plan</span></div>
+    <div class="amt">₹289<i>/</i>$2.99</div>
+    <p class="once">One-time payment · No subscription</p>
+    <a class="btn" id="buyBtn" href="https://payhip.com/b/jk0tr" target="_blank" rel="noopener">Buy now</a>
+  </div>
+</section>
 
-<p style="margin-top:15px;color:#666;font-size:12px;">
-Instant PDF Download • One-Time Payment • Secure Checkout
-</p>
+<footer>
+  <p>This e-book is for educational purposes only and isn’t medical advice. Talk to a qualified healthcare professional about any health concern.</p>
+  <p>Copyright © All rights reserved. Please don’t copy, share, resell or redistribute the e-book.</p>
+</footer>
 
 </div>
-</div>
+
+<dialog id="pay">
+  <h3>Choose payment method</h3>
+  <p>Secure checkout through Payhip. You get the PDF instantly.</p>
+  <a class="pay upi" href="https://payhip.com/b/jk0tr" target="_blank" rel="noopener">🇮🇳 UPI · ₹289</a>
+  <a class="pay pp" href="https://payhip.com/b/fh15d" target="_blank" rel="noopener">🌎 PayPal · $2.99</a>
+  <button class="close" id="close" type="button">Close</button>
+</dialog>
 
 <script>
-document.querySelector('a[href="#paymentModal"]').onclick = function(e){
-  e.preventDefault();
-  document.getElementById('paymentModal').style.display='flex';
-};
+(function(){
+  var dlg=document.getElementById("pay");
+  document.getElementById("buyBtn").onclick=function(e){
+    if(dlg&&dlg.showModal){e.preventDefault();dlg.showModal();}
+  };
+  document.getElementById("close").onclick=function(){dlg.close();};
+  dlg.onclick=function(e){if(e.target===dlg){dlg.close();}};
 
-document.getElementById('paymentModal').onclick = function(e){
-  if(e.target===this){
-    this.style.display='none';
-  }
-};
+  var weeks=[
+    {t:"Week 1",f:"Sleep, water, daily walking",s:1,e:7},
+    {t:"Week 2",f:"Protein, better food, fewer sugary drinks",s:8,e:14},
+    {t:"Week 3",f:"Strength training, cardio, movement",s:15,e:21},
+    {t:"Week 4",f:"Recovery, sleep quality, stress",s:22,e:30}
+  ];
+  var KEY="t30-days",done={},root=document.getElementById("weeks"),nEl=document.getElementById("n");
+  try{var raw=localStorage.getItem(KEY);if(raw){done=JSON.parse(raw)||{};}}catch(e){done={};}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(done));}catch(e){}}
+  function count(){nEl.textContent=Object.keys(done).filter(function(k){return done[k];}).length;}
+  weeks.forEach(function(w){
+    var row=document.createElement("div");row.className="week";
+    var lab=document.createElement("div");
+    lab.innerHTML="<b>"+w.t+"</b><span class='f'>"+w.f+"</span>";
+    var days=document.createElement("div");days.className="days";
+    for(var d=w.s;d<=w.e;d++){(function(d){
+      var b=document.createElement("button");b.type="button";b.className="day";b.textContent=d;
+      b.setAttribute("aria-label","Day "+d);b.setAttribute("aria-pressed",done[d]?"true":"false");
+      b.onclick=function(){done[d]=!done[d];b.setAttribute("aria-pressed",done[d]?"true":"false");save();count();};
+      days.appendChild(b);
+    })(d);}
+    row.appendChild(lab);row.appendChild(days);root.appendChild(row);
+  });
+  document.getElementById("reset").onclick=function(){
+    done={};save();count();
+    [].forEach.call(document.querySelectorAll(".day"),function(b){b.setAttribute("aria-pressed","false");});
+  };
+  count();
+})();
 </script>
+</body>
+</html>
